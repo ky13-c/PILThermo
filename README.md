@@ -1,7 +1,10 @@
-# PILThermo
-Automated Mass Data Collection/Processor/Visualizer for ILThermo(https://ilthermo.boulder.nist.gov/)
+# Process-ILThermo (PILThermo)
+PILThermo is an modular, automated mass data collection/processor/visualizer for the Ionic Liquids Database(https://ilthermo.boulder.nist.gov/)
 
-Data Format:
+## Description:
+PILThermo has been developed to enable data collection and visualization of the Ionic Liquids Database. PILThermo is able to compile datasets within the Ionic Liquids Database by properties(e.g. Viscosity) and generate a downloadable .json file in the format listed below. PILThermo automatically standardizes all measurements of concentration into molality, releasing all references where it is unable to do so.
+
+## Data Format:
 {"Ionic Liquid": 
   {"Data Source" :
     {"citation": "citation of Source",
